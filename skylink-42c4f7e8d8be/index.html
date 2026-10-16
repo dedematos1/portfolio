@@ -1,0 +1,245 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="robots" content="noindex, nofollow">
+<meta name="description" content="B2B marketing portfolio of André Lisboa, prepared for the Skylink Marketing Manager role.">
+<title>Portfolio · André Lisboa · Skylink</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap">
+<style>
+  :root { color-scheme: light; --green: #299963; --green-dark: #1f7a4e; --ink: #1e1e1e; --muted: #5b5f66; --line: #e3e6e8; --soft: #f3f7f5; --bg: #f6f8f7; --card: #ffffff; }
+  * { box-sizing: border-box; }
+  html { -webkit-text-size-adjust: 100%; }
+  body { margin: 0; background: var(--bg); color: var(--ink); font-family: "Montserrat", Arial, sans-serif; line-height: 1.55; }
+  a { color: var(--green-dark); }
+  .wrap { max-width: 1080px; margin: 0 auto; padding: 0 16px; }
+  header.hero { background: var(--card); border-bottom: 1px solid var(--line); }
+  .hero .wrap { padding-top: 48px; padding-bottom: 40px; display: grid; grid-template-columns: 1.1fr 1fr; gap: 40px; align-items: center; }
+  .eyebrow { font-size: 12px; letter-spacing: .14em; text-transform: uppercase; color: var(--green); font-weight: 600; margin: 0 0 10px; }
+  h1 { font-size: clamp(36px, 6vw, 54px); font-weight: 400; color: var(--green); margin: 0; line-height: 1.05; }
+  .lead { font-size: clamp(17px, 2.2vw, 20px); font-weight: 500; margin: 14px 0 12px; }
+  .muted { color: var(--muted); }
+  p { margin: 0 0 12px; font-size: 15.5px; }
+  .metrics { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; }
+  .metric { background: var(--soft); border-radius: 12px; padding: 16px 18px; }
+  .metric b { display: block; font-size: 28px; font-weight: 600; color: var(--green); line-height: 1.1; }
+  .metric span { display: block; font-size: 13px; color: var(--muted); margin-top: 4px; line-height: 1.35; }
+  nav.map { margin-top: 18px; border-top: 1px solid var(--line); }
+  nav.map a { display: flex; justify-content: space-between; gap: 12px; padding: 9px 0; border-bottom: 1px solid var(--line); text-decoration: none; color: var(--ink); font-size: 14.5px; }
+  nav.map a span:last-child { color: var(--green); font-weight: 600; }
+  section { padding: 44px 0 8px; }
+  .card { background: var(--card); border: 1px solid var(--line); border-radius: 16px; padding: 28px; }
+  h2 { font-size: clamp(22px, 3vw, 28px); font-weight: 600; margin: 0 0 18px; line-height: 1.2; }
+  .ask { border-left: 3px solid var(--green); padding: 6px 0 6px 14px; margin: 0 0 16px; font-size: 14.5px; color: var(--muted); }
+  .ask b { color: var(--ink); }
+  .cols { display: grid; grid-template-columns: 1fr 1.25fr; gap: 28px; align-items: start; }
+  ul { margin: 0 0 14px; padding-left: 20px; }
+  li { font-size: 15.5px; margin-bottom: 8px; }
+  .tag { display: inline-block; font-size: 12.5px; font-weight: 600; color: var(--green-dark); background: var(--soft); border-radius: 99px; padding: 4px 11px; margin: 0 6px 6px 0; }
+  .g2 { display: grid; grid-template-columns: 1fr 1fr; gap: 14px; }
+  .g3 { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 14px; }
+  figure { margin: 0; }
+  figure img { display: block; width: 100%; height: auto; border-radius: 10px; border: 1px solid var(--line); background: #fff; }
+  figcaption { font-size: 12.5px; color: var(--muted); margin-top: 6px; line-height: 1.35; }
+  .case { background: var(--soft); border-radius: 14px; padding: 20px 22px; margin-top: 6px; }
+  .case h3 { font-size: 16px; margin: 0 0 10px; }
+  .facts { display: grid; grid-template-columns: repeat(4, 1fr); gap: 10px; margin: 12px 0 14px; }
+  .facts div { background: #fff; border-radius: 10px; padding: 10px 12px; }
+  .facts b { display: block; font-size: 19px; color: var(--green); line-height: 1.2; }
+  .facts span { font-size: 12.5px; color: var(--muted); line-height: 1.3; display: block; }
+  .case p { font-size: 14.5px; }
+  .note { font-size: 13px; color: var(--muted); background: var(--soft); border-radius: 10px; padding: 10px 14px; margin-top: 18px; }
+  footer { padding: 44px 0 56px; }
+  footer .card { text-align: center; }
+  footer p { font-size: 15px; }
+  @media (max-width: 860px) {
+    .hero .wrap, .cols { grid-template-columns: 1fr; gap: 24px; }
+    .hero .wrap { padding-top: 32px; padding-bottom: 28px; }
+    .card { padding: 20px 16px; }
+    .facts { grid-template-columns: 1fr 1fr; }
+    .g3 { grid-template-columns: 1fr 1fr; }
+  }
+  @media (max-width: 420px) {
+    .metrics { gap: 8px; }
+    .metric { padding: 12px; }
+    .metric b { font-size: 22px; }
+  }
+</style>
+</head>
+<body>
+
+<header class="hero">
+  <div class="wrap">
+    <div>
+      <p class="eyebrow">Portfolio · B2B content, funnel and sales collateral · for Skylink</p>
+      <h1>André Lisboa</h1>
+      <p class="lead">Every piece of content has a job: build trust, prove value or remove sales friction.</p>
+      <p class="muted">I have 5+ years across B2B marketing and sales. Today I am Project &amp; Strategic Marketing Manager at Adconnect, a network hardware manufacturer that sells only through selected distributors. Like Skylink, it is a technical B2B supplier whose buyers need clear, trustworthy information before they buy. I plan and execute end to end: content, campaigns, website, sales collateral and the tools the team uses.</p>
+      <p class="muted">Everything below is real work I did, organized by what the Marketing Manager role asks for. The pieces are in Portuguese, made for the Brazilian market.</p>
+      <nav class="map" aria-label="Sections">
+        <a href="#funnel"><span>Lead funnel and email nurture</span><span>1</span></a>
+        <a href="#collateral"><span>Sales collateral that sales actually uses</span><span>2</span></a>
+        <a href="#visual"><span>Branded visuals, social content and video</span><span>3</span></a>
+        <a href="#brand"><span>Paid ads and brand image</span><span>4</span></a>
+        <a href="#ai"><span>AI as leverage, not a crutch</span><span>5</span></a>
+      </nav>
+    </div>
+    <div class="metrics">
+      <div class="metric"><b>+266%</b><span>campaign reach from email nurture and automation flows I built from scratch</span></div>
+      <div class="metric"><b>150 → 550</b><span>active customers in the base (tracked in RD Station)</span></div>
+      <div class="metric"><b>150+</b><span>products with technical sheets and sales arguments written by me</span></div>
+      <div class="metric"><b>20%</b><span>closing target hit in a one-month email + ads campaign with A/B tests</span></div>
+      <div class="metric"><b>−15%</b><span>churn in the distributor portfolio I managed</span></div>
+      <div class="metric"><b>7 in 14</b><span>complete go-to-market strategies delivered in 14 days, with AI</span></div>
+    </div>
+  </div>
+</header>
+
+<main class="wrap">
+
+<section id="funnel">
+  <div class="card">
+    <p class="eyebrow">1 · Funnel</p>
+    <h2>From first touch to a qualified conversation with sales</h2>
+    <div class="cols">
+      <div>
+        <p class="ask"><b>The role asks:</b> build and manage the lead funnel, from lead magnet and landing page to email nurture and a qualified opportunity, and drive conversion, not just lead volume.</p>
+        <ul>
+          <li>I built email nurture and automation flows from scratch in RD Station, focused on retention and cross-sell. Campaign reach grew 266% and the active customer base went from 150 to 550.</li>
+          <li>I built our own email marketing tool on the Brevo API, with campaigns, calendar, segments and reporting.</li>
+          <li>I built the company's new website with Claude Code, now in its final stage before launch, with two conversion paths: a quote request and a direct WhatsApp line to the sales team.</li>
+          <li>I track funnel KPIs (CAC, LTV, conversion) in dashboards used by leadership.</li>
+        </ul>
+        <span class="tag">Email nurture</span><span class="tag">RD Station</span><span class="tag">Brevo</span><span class="tag">Conversion</span>
+      </div>
+      <div>
+        <div class="case">
+          <h3>Case: purchase-schedule campaign with distributors</h3>
+          <p>Goal: get distributors in our base, plus prospects, to commit to their purchase plan for the coming months.</p>
+          <div class="facts">
+            <div><b>20%</b><span>closing target for the contacted base</span></div>
+            <div><b>~R$ 1,000</b><span>total budget</span></div>
+            <div><b>1 month</b><span>duration</span></div>
+            <div><b>~20%</b><span>positive ROI, target hit</span></div>
+          </div>
+          <p><b>Channels:</b> an email sequence in RD Station plus paid social ads.</p>
+          <p><b>A/B tests:</b> email subject line, email creative and ads. I kept each winning version and built the rest of the sequence on top of it.</p>
+          <p style="margin:0"><b>Result:</b> we hit the 20% closing target within the month, with a positive ROI of about 20%.</p>
+        </div>
+        <div class="g2" style="margin-top:14px">
+          <figure><img src="img/home.jpg" alt="New website home page" loading="lazy"><figcaption>New website, built by me with Claude Code.</figcaption></figure>
+          <figure><img src="img/ondecomprar.jpg" alt="Where to buy page" loading="lazy"><figcaption>"Where to buy": hands the contact to the sales team.</figcaption></figure>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="collateral">
+  <div class="card">
+    <p class="eyebrow">2 · Sales collateral</p>
+    <h2>Material that makes a real sales conversation easier</h2>
+    <div class="cols">
+      <div>
+        <p class="ask"><b>The role asks:</b> keep one-pagers, sales sheets, capability decks and case studies current, on-brand and useful with the sales team.</p>
+        <ul>
+          <li>I turn engineering data into technical sheets and sales scripts for a portfolio of 150+ products, so distributors and salespeople have a clear argument for each customer.</li>
+          <li>I built a proposal generator that pulls the proposal from the CRM and applies the company's visual identity.</li>
+          <li>Before marketing I was the Account Manager for our distributors: I cut churn by 15%, raised the average ticket by 20% and hit the monthly portfolio target every month. I know what a salesperson needs in hand.</li>
+          <li>For the distributor loyalty program, which I grew by 30%, the headline speaks about the reseller's margin, not the product.</li>
+        </ul>
+        <span class="tag">Sales sheets</span><span class="tag">Proposals</span><span class="tag">Sales enablement</span>
+      </div>
+      <div class="g3">
+        <figure><img src="img/datasheet.jpg" alt="Product technical sheet" loading="lazy"><figcaption>Product technical sheet.</figcaption></figure>
+        <figure><img src="img/especificacao.jpg" alt="Technical arguments piece" loading="lazy"><figcaption>The technical arguments at a glance.</figcaption></figure>
+        <figure><img src="img/smart.jpg" alt="Partner program piece" loading="lazy"><figcaption>Partner program: the headline talks about the reseller's margin.</figcaption></figure>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="visual">
+  <div class="card">
+    <p class="eyebrow">3 · Visual, social and video</p>
+    <h2>Technical topics made simple, in a consistent brand voice</h2>
+    <div class="cols">
+      <div>
+        <p class="ask"><b>The role asks:</b> multi-format content (written, short-form video, branded visuals) adapted to each platform, on a structured content calendar.</p>
+        <ul>
+          <li>I plan the editorial calendar by pillar: authority and proof, technical education, product, and the partner program.</li>
+          <li>I write the copy and design the posts in Photoshop and Illustrator, and edit video in CapCut.</li>
+          <li>I lead the person responsible for social media, with strategy, deadlines and performance reviews.</li>
+          <li>At Forcoming, the sneaker e-commerce I founded, I created the store's content for Instagram and TikTok and ran influencer actions.</li>
+        </ul>
+        <span class="tag">LinkedIn</span><span class="tag">Instagram</span><span class="tag">Photoshop</span><span class="tag">Illustrator</span><span class="tag">CapCut</span>
+      </div>
+      <div class="g2">
+        <figure><img src="img/cat6.jpg" alt="Technical education post" loading="lazy"><figcaption>Technical education: helping the specifier choose.</figcaption></figure>
+        <figure><img src="img/dor.jpg" alt="Pain-point post" loading="lazy"><figcaption>Opening with a pain the buyer already knows.</figcaption></figure>
+        <figure><img src="img/presenca.jpg" alt="National presence post" loading="lazy"><figcaption>Authority: national presence.</figcaption></figure>
+        <figure><img src="img/patchcord.jpg" alt="Product post variation" loading="lazy"><figcaption>The same piece in a new color, to test in the feed.</figcaption></figure>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="brand">
+  <div class="card">
+    <p class="eyebrow">4 · Paid ads and brand image</p>
+    <h2>Brand image is a trust function</h2>
+    <div class="cols">
+      <div>
+        <p class="ask"><b>The role asks:</b> own paid ads (LinkedIn and social are a must) and how the brand looks on every digital surface.</p>
+        <ul>
+          <li>I build and manage Google Ads, Meta Ads and LinkedIn Ads campaigns for launches, promotions and brand communication.</li>
+          <li>I look after the visual identity of the group's brands, including a second brand with its own identity.</li>
+          <li>I rewrote and reorganized the product catalog into two lines, one per brand, so customers find the right product faster.</li>
+        </ul>
+        <span class="tag">LinkedIn Ads</span><span class="tag">Meta Ads</span><span class="tag">Google Ads</span><span class="tag">Brand identity</span>
+      </div>
+      <div class="g2">
+        <figure><img src="img/catalogo.jpg" alt="Product catalog cover" loading="lazy"><figcaption>Catalog cover, reorganized into two product lines.</figcaption></figure>
+        <figure><img src="img/dcworld.jpg" alt="Second brand of the group" loading="lazy"><figcaption>The group's second brand, with its own identity.</figcaption></figure>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="ai">
+  <div class="card">
+    <p class="eyebrow">5 · AI as leverage</p>
+    <h2>I use AI to go faster, and I edit everything it writes</h2>
+    <div class="cols">
+      <div>
+        <p class="ask"><b>The role asks:</b> advanced prompting, using AI as leverage and not a crutch, with heavy human editing so nothing feels robotic.</p>
+        <ul>
+          <li>I use Claude and Gemini every day for research, campaign ideas and first drafts, and I always rewrite them in my own voice before anything goes live.</li>
+          <li>I built, with Claude Code, the internal marketing platform used across the company: content approval workflow, proposal generator, email tool and results dashboard.</li>
+          <li>With AI support, I delivered 7 complete go-to-market strategies in 14 days.</li>
+        </ul>
+        <span class="tag">Claude Code</span><span class="tag">Prompting</span><span class="tag">Go-to-market</span>
+      </div>
+      <div class="g2">
+        <figure><img src="img/central.jpg" alt="Internal marketing hub" loading="lazy"><figcaption>Internal marketing hub with role-based login.</figcaption></figure>
+        <figure><img src="img/viewer3d.jpg" alt="3D Studio" loading="lazy"><figcaption>3D Studio: customers approve packaging in 3D.</figcaption></figure>
+      </div>
+    </div>
+  </div>
+</section>
+
+</main>
+
+<footer class="wrap">
+  <div class="card">
+    <p><b>André Lisboa</b> · B2B Marketing · São Paulo, Brazil · open to remote work</p>
+    <p class="muted">All the work in this portfolio was done by me. I would be glad to walk you through any piece in a conversation.</p>
+    <p><a href="https://www.linkedin.com/in/andr%C3%A9-luiz-m-229716226/" rel="noopener">linkedin.com/in/andré-luiz-m-229716226</a></p>
+  </div>
+</footer>
+
+</body>
+</html>
