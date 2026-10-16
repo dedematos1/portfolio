@@ -1,0 +1,258 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="robots" content="noindex, nofollow">
+<meta name="description" content="Portfólio de André Lisboa em marketing de parcerias e canais, preparado para a Flowbiz.">
+<title>Portfólio · André Lisboa · Flowbiz</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap">
+<style>
+  :root { color-scheme: light; --green: #299963; --green-dark: #1f7a4e; --ink: #1e1e1e; --muted: #5b5f66; --line: #e3e6e8; --soft: #f3f7f5; --bg: #f6f8f7; --card: #ffffff; }
+  * { box-sizing: border-box; }
+  html { -webkit-text-size-adjust: 100%; }
+  body { margin: 0; background: var(--bg); color: var(--ink); font-family: "Montserrat", Arial, sans-serif; line-height: 1.55; }
+  a { color: var(--green-dark); }
+  .wrap { max-width: 1080px; margin: 0 auto; padding: 0 16px; }
+  header.hero { background: var(--card); border-bottom: 1px solid var(--line); }
+  .hero .wrap { padding-top: 48px; padding-bottom: 40px; display: grid; grid-template-columns: 1.1fr 1fr; gap: 40px; align-items: center; }
+  .eyebrow { font-size: 12px; letter-spacing: .14em; text-transform: uppercase; color: var(--green); font-weight: 600; margin: 0 0 10px; }
+  h1 { font-size: clamp(36px, 6vw, 54px); font-weight: 400; color: var(--green); margin: 0; line-height: 1.05; }
+  .lead { font-size: clamp(17px, 2.2vw, 20px); font-weight: 500; margin: 14px 0 12px; }
+  .muted { color: var(--muted); }
+  p { margin: 0 0 12px; font-size: 15.5px; }
+  .metrics { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; }
+  .metric { background: var(--soft); border-radius: 12px; padding: 16px 18px; }
+  .metric b { display: block; font-size: 28px; font-weight: 600; color: var(--green); line-height: 1.1; }
+  .metric span { display: block; font-size: 13px; color: var(--muted); margin-top: 4px; line-height: 1.35; }
+  nav.map { margin-top: 18px; border-top: 1px solid var(--line); }
+  nav.map a { display: flex; justify-content: space-between; gap: 12px; padding: 9px 0; border-bottom: 1px solid var(--line); text-decoration: none; color: var(--ink); font-size: 14.5px; }
+  nav.map a span:last-child { color: var(--green); font-weight: 600; }
+  section { padding: 44px 0 8px; }
+  .card { background: var(--card); border: 1px solid var(--line); border-radius: 16px; padding: 28px; }
+  h2 { font-size: clamp(22px, 3vw, 28px); font-weight: 600; margin: 0 0 18px; line-height: 1.2; }
+  .ask { border-left: 3px solid var(--green); padding: 6px 0 6px 14px; margin: 0 0 16px; font-size: 14.5px; color: var(--muted); }
+  .ask b { color: var(--ink); }
+  .cols { display: grid; grid-template-columns: 1fr 1.25fr; gap: 28px; align-items: start; }
+  ul { margin: 0 0 14px; padding-left: 20px; }
+  li { font-size: 15.5px; margin-bottom: 8px; }
+  .tag { display: inline-block; font-size: 12.5px; font-weight: 600; color: var(--green-dark); background: var(--soft); border-radius: 99px; padding: 4px 11px; margin: 0 6px 6px 0; }
+  .g2 { display: grid; grid-template-columns: 1fr 1fr; gap: 14px; }
+  .g3 { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 14px; }
+  figure { margin: 0; }
+  figure img { display: block; width: 100%; height: auto; border-radius: 10px; border: 1px solid var(--line); background: #fff; }
+  figcaption { font-size: 12.5px; color: var(--muted); margin-top: 6px; line-height: 1.35; }
+  .case { background: var(--soft); border-radius: 14px; padding: 20px 22px; margin-top: 6px; }
+  .case h3 { font-size: 16px; margin: 0 0 10px; }
+  .facts { display: grid; grid-template-columns: repeat(4, 1fr); gap: 10px; margin: 12px 0 14px; }
+  .facts div { background: #fff; border-radius: 10px; padding: 10px 12px; }
+  .facts b { display: block; font-size: 19px; color: var(--green); line-height: 1.2; }
+  .facts span { font-size: 12.5px; color: var(--muted); line-height: 1.3; display: block; }
+  .case p { font-size: 14.5px; }
+  .hook { background: var(--green); color: #fff; border-radius: 14px; padding: 18px 22px; margin: 4px 0 18px; font-size: 15.5px; font-weight: 500; }
+  footer { padding: 44px 0 56px; }
+  footer .card { text-align: center; }
+  footer p { font-size: 15px; }
+  @media (max-width: 860px) {
+    .hero .wrap, .cols { grid-template-columns: 1fr; gap: 24px; }
+    .hero .wrap { padding-top: 32px; padding-bottom: 28px; }
+    .card { padding: 20px 16px; }
+    .facts { grid-template-columns: 1fr 1fr; }
+    .g3 { grid-template-columns: 1fr 1fr; }
+  }
+  @media (max-width: 420px) {
+    .metrics { grid-template-columns: 1fr 1fr; gap: 8px; }
+    .metric { padding: 12px; }
+    .metric b { font-size: 22px; }
+  }
+</style>
+</head>
+<body>
+
+<header class="hero">
+  <div class="wrap">
+    <div>
+      <p class="eyebrow">Portfólio · Marketing de parcerias e canais · para a Flowbiz</p>
+      <h1>André Lisboa</h1>
+      <p class="lead">Faço o parceiro lembrar, indicar e vender o seu produto.</p>
+      <p class="muted">Tenho mais de 5 anos entre vendas e marketing B2B, sempre perto do canal. Fui gestor de contas de uma carteira de distribuidores e hoje sou Gestor de Projetos e Marketing Estratégico na Adconnect, fabricante de conectividade e redes que vende só por meio de distribuidores selecionados.</p>
+      <p class="muted">Este portfólio mostra trabalho real feito por mim, organizado pelo que a vaga de Analista de Marketing de Parcerias pede.</p>
+      <nav class="map" aria-label="Seções">
+        <a href="#relacionamento"><span>Relacionamento com quem vende o seu produto</span><span>1</span></a>
+        <a href="#programa"><span>Programa de parceiros e campanhas de incentivo</span><span>2</span></a>
+        <a href="#capacitacao"><span>Capacitação e material para o vendedor</span><span>3</span></a>
+        <a href="#campo"><span>Presença no campo, visitas e feiras</span><span>4</span></a>
+        <a href="#digital"><span>Marketing digital, automação e e-commerce</span><span>5</span></a>
+        <a href="#ia"><span>IA e ferramentas próprias</span><span>6</span></a>
+      </nav>
+    </div>
+    <div class="metrics">
+      <div class="metric"><b>Todo mês</b><span>meta mensal de vendas da carteira de distribuidores batida</span></div>
+      <div class="metric"><b>−15%</b><span>churn na carteira de distribuidores</span></div>
+      <div class="metric"><b>+20%</b><span>ticket médio na mesma carteira</span></div>
+      <div class="metric"><b>+30%</b><span>crescimento do programa de fidelização Smart Adconnect</span></div>
+      <div class="metric"><b>150 → 550</b><span>clientes ativos na base com réguas de automação (+266% de alcance)</span></div>
+      <div class="metric"><b>40 / ano</b><span>clientes novos em vendas de campo</span></div>
+    </div>
+  </div>
+</header>
+
+<main class="wrap">
+
+<section id="relacionamento">
+  <div class="card">
+    <p class="eyebrow">1 · Relacionamento com unidades e parceiros</p>
+    <h2>Ser a solução lembrada quando o vendedor do parceiro tem várias para oferecer</h2>
+    <div class="cols">
+      <div>
+        <p class="ask"><b>A vaga pede:</b> relacionamento próximo com as unidades e filiais da Sankhya, com visitas, reuniões e acompanhamento contínuo, para que a Flowbiz seja lembrada e indicada no cross-sell.</p>
+        <ul>
+          <li>Como gestor de contas, cuidei de uma carteira de distribuidores: liguei, visitei e marquei reuniões com os diretores, e batemos a meta mensal de vendas da carteira em todos os meses.</li>
+          <li>Reduzi o churn em 15% e aumentei o ticket médio em 20% com ações personalizadas para cada distribuidor e campanhas baseadas em dados.</li>
+          <li>Estruturei o pipeline no Agendor (CRM) e fazia relatórios de desempenho por conta, com market share e LTV, a base de qualquer conversa de resultado com o parceiro.</li>
+          <li>É a mesma lógica das unidades Sankhya: quem vende tem várias soluções na mão, e o trabalho é fazer a sua ser a primeira lembrada.</li>
+        </ul>
+        <span class="tag">Gestão de canal</span><span class="tag">Distribuidores</span><span class="tag">CRM</span><span class="tag">Cross-sell</span>
+      </div>
+      <div class="g2">
+        <figure><img src="img/revenda.jpg" alt="Peça sobre o que sustenta a revenda" loading="lazy"><figcaption>Prova: o que sustenta a revenda.</figcaption></figure>
+        <figure><img src="img/presenca.jpg" alt="Peça sobre presença nacional" loading="lazy"><figcaption>Autoridade: presença nacional.</figcaption></figure>
+        <figure style="grid-column: 1 / -1"><img src="img/ondecomprar.jpg" alt="Página Onde comprar do site" loading="lazy"><figcaption>Onde comprar: leva o contato ao time comercial.</figcaption></figure>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="programa">
+  <div class="card">
+    <p class="eyebrow">2 · Programa de parceiros e incentivo</p>
+    <h2>Um programa que fala a língua de quem revende</h2>
+    <div class="cols">
+      <div>
+        <p class="ask"><b>A vaga pede:</b> manter e fortalecer o programa de canais de agências e criar campanhas e rankings de incentivo para parceiros e unidades.</p>
+        <ul>
+          <li>Fiz crescer 30% o Smart Adconnect, o programa de fidelização dos distribuidores, com ações personalizadas e comunicação feita para quem revende.</li>
+          <li>Na comunicação do programa, o título fala da margem do parceiro, não do produto: é isso que faz o distribuidor prestar atenção.</li>
+        </ul>
+        <span class="tag">Programa de parceiros</span><span class="tag">Fidelização</span><span class="tag">Incentivo</span>
+        <div class="case">
+          <h3>Caso: campanha de programação de compra com distribuidores</h3>
+          <p>Objetivo: levar distribuidores da base e prospects a fechar o plano de compras dos meses seguintes.</p>
+          <div class="facts">
+            <div><b>20%</b><span>meta de fechamento da base contatada</span></div>
+            <div><b>~R$ 1.000</b><span>orçamento total</span></div>
+            <div><b>1 mês</b><span>duração</span></div>
+            <div><b>~20%</b><span>ROI positivo, meta atingida</span></div>
+          </div>
+          <p><b>Canais:</b> régua de e-mail no RD Station e anúncios pagos nas redes sociais.</p>
+          <p><b>Testes A/B:</b> assunto do e-mail, criativo do e-mail e anúncios. Em cada um fiquei com a versão vencedora e montei o resto da régua a partir dela.</p>
+          <p style="margin:0"><b>Resultado:</b> batemos os 20% de fechamento dentro do mês, com ROI positivo de cerca de 20%.</p>
+        </div>
+      </div>
+      <div>
+        <figure><img src="img/smart.jpg" alt="Peça do programa de parceiros Smart Adconnect" loading="lazy"><figcaption>Programa de parceiros: o título fala da margem de quem revende.</figcaption></figure>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="capacitacao">
+  <div class="card">
+    <p class="eyebrow">3 · Capacitação e enablement</p>
+    <h2>Dar ao vendedor do parceiro um argumento claro para cada cliente</h2>
+    <div class="cols">
+      <div>
+        <p class="ask"><b>A vaga pede:</b> apoiar a capacitação dos times das unidades sobre a proposta de valor da Flowbiz e desenvolver propostas personalizadas com o time interno.</p>
+        <ul>
+          <li>Fiz visitas, promotoria e treinamentos para os distribuidores parceiros, para apoiar a venda dos produtos na ponta.</li>
+          <li>Traduzo dados de engenharia em fichas técnicas e roteiros comerciais de mais de 150 produtos, para que distribuidores e vendedores tenham um argumento claro para cada cliente.</li>
+          <li>Criei um gerador de propostas que puxa a proposta do CRM e aplica a identidade visual da empresa.</li>
+        </ul>
+        <span class="tag">Treinamento de parceiros</span><span class="tag">Sales enablement</span><span class="tag">Propostas</span>
+      </div>
+      <div class="g3">
+        <figure><img src="img/datasheet.jpg" alt="Ficha técnica de produto" loading="lazy"><figcaption>Ficha técnica de produto.</figcaption></figure>
+        <figure><img src="img/especificacao.jpg" alt="Peça de argumentos técnicos" loading="lazy"><figcaption>Os argumentos técnicos em um só olhar.</figcaption></figure>
+        <figure><img src="img/cat6.jpg" alt="Peça de educação técnica" loading="lazy"><figcaption>Educação técnica: ajudar quem especifica a escolher.</figcaption></figure>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="campo">
+  <div class="card">
+    <p class="eyebrow">4 · Presença no campo</p>
+    <h2>Gosto de estar presente: visita, reunião e feira</h2>
+    <p class="ask"><b>A vaga pede:</b> gosto por estar presente (visitas, eventos e networking), apoio aos encontros regionais com as unidades, representação da Flowbiz em eventos e disponibilidade para viagens.</p>
+    <div class="facts" style="margin-top:0">
+      <div><b>40 / ano</b><span>clientes novos na NZ Representações, com prospecção ativa</span></div>
+      <div><b>+20%</b><span>NPS na mesma carteira</span></div>
+      <div><b>Visitas</b><span>e reuniões presenciais com diretores de distribuidores na Adconnect</span></div>
+      <div><b>CNH B</b><span>disponível para viagens dentro e fora de SP e para eventos</span></div>
+    </div>
+    <ul>
+      <li>Na NZ Representações vendi no campo para construção, agricultura, mineração e transporte, com visitas, feiras e acompanhamento de todo o ciclo, da prospecção ao pós-venda.</li>
+      <li>Moro em Cotia, na Grande São Paulo, e tenho disponibilidade para o modelo híbrido, com 3 dias presenciais.</li>
+    </ul>
+  </div>
+</section>
+
+<section id="digital">
+  <div class="card">
+    <p class="eyebrow">5 · Marketing digital, automação e e-commerce</p>
+    <h2>Relacionamento, fidelização e recompra com a própria base: eu já faço isso</h2>
+    <div class="hook">O que a Flowbiz vende, automação para relacionamento, fidelização e recompra, é o que eu faço todos os dias com a base de clientes da Adconnect.</div>
+    <div class="cols">
+      <div>
+        <p class="ask"><b>A vaga pede:</b> familiaridade com marketing digital e e-commerce, para conversar com agências, meios de pagamento e plataformas de e-commerce.</p>
+        <ul>
+          <li>Criei do zero as réguas de nutrição e automação no RD Station que levaram a base ativa de 150 para 550 clientes (+266% de alcance), com foco em retenção e cross-sell.</li>
+          <li>Construí uma ferramenta própria de e-mail marketing com a API do Brevo: campanhas, calendário, segmentos e relatórios.</li>
+          <li>Crio e gerencio campanhas de Google Ads, Meta Ads e LinkedIn Ads e acompanho KPIs de funil (CAC, LTV, conversão) em dashboards usados pela diretoria.</li>
+          <li>Fundei e geri a Forcoming, e-commerce de tênis (2020 a 2022): mais de R$ 90 mil de faturamento bruto com margem média de 35%, guiado por ROAS, margem e CAC.</li>
+        </ul>
+        <span class="tag">RD Station</span><span class="tag">Brevo</span><span class="tag">Automação</span><span class="tag">E-commerce</span><span class="tag">Ads</span>
+      </div>
+      <div class="g2">
+        <figure><img src="img/home.jpg" alt="Página inicial do novo site" loading="lazy"><figcaption>Site novo, construído por mim com Claude Code.</figcaption></figure>
+        <figure><img src="img/produto.jpg" alt="Página de produto com ficha técnica" loading="lazy"><figcaption>Produto com ficha técnica e caminho para o orçamento.</figcaption></figure>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="ia">
+  <div class="card">
+    <p class="eyebrow">6 · IA e ferramentas próprias</p>
+    <h2>Mão na massa: eu planejo, executo e construo a ferramenta</h2>
+    <div class="cols">
+      <div>
+        <ul>
+          <li>Uso IA todos os dias (Claude, Gemini) para pesquisa, ideias de campanha e primeiras versões de texto, sempre revisadas por mim.</li>
+          <li>Construí com Claude Code a plataforma interna de marketing usada por toda a empresa: aprovação de conteúdo, gerador de propostas, e-mail marketing e painel de resultados.</li>
+          <li>Entreguei 7 estratégias completas de go-to-market em 14 dias.</li>
+        </ul>
+        <span class="tag">Claude Code</span><span class="tag">IA aplicada</span><span class="tag">Go-to-market</span>
+      </div>
+      <div class="g2">
+        <figure><img src="img/central.jpg" alt="Central de marketing interna" loading="lazy"><figcaption>Central de marketing interna, com login por perfil.</figcaption></figure>
+        <figure><img src="img/viewer3d.jpg" alt="3D Studio" loading="lazy"><figcaption>3D Studio: o cliente valida a embalagem em 3D.</figcaption></figure>
+      </div>
+    </div>
+  </div>
+</section>
+
+</main>
+
+<footer class="wrap">
+  <div class="card">
+    <p><b>André Lisboa</b> · Marketing de parcerias e canais B2B</p>
+    <p class="muted">Todo o trabalho deste portfólio foi feito por mim. Será um prazer mostrar e explicar cada peça em uma conversa.</p>
+    <p><a href="https://www.linkedin.com/in/andr%C3%A9-luiz-m-229716226/" rel="noopener">linkedin.com/in/andré-luiz-m-229716226</a></p>
+  </div>
+</footer>
+
+</body>
+</html>
