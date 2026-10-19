@@ -1,0 +1,231 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="robots" content="noindex, nofollow">
+<meta name="description" content="Portfólio de André Lisboa em redes sociais, campanhas e captação de leads, preparado para a Mormaii Fitness.">
+<title>Portfólio · André Lisboa · Mormaii Fitness</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap">
+<style>
+  :root { color-scheme: light; --green: #299963; --green-dark: #1f7a4e; --ink: #1e1e1e; --muted: #5b5f66; --line: #e3e6e8; --soft: #f3f7f5; --bg: #f6f8f7; --card: #ffffff; }
+  * { box-sizing: border-box; }
+  html { -webkit-text-size-adjust: 100%; }
+  body { margin: 0; background: var(--bg); color: var(--ink); font-family: "Montserrat", Arial, sans-serif; line-height: 1.55; }
+  a { color: var(--green-dark); }
+  .wrap { max-width: 1080px; margin: 0 auto; padding: 0 16px; }
+  header.hero { background: var(--card); border-bottom: 1px solid var(--line); }
+  .hero .wrap { padding-top: 48px; padding-bottom: 40px; display: grid; grid-template-columns: 1.1fr 1fr; gap: 40px; align-items: center; }
+  .eyebrow { font-size: 12px; letter-spacing: .14em; text-transform: uppercase; color: var(--green); font-weight: 600; margin: 0 0 10px; }
+  h1 { font-size: clamp(36px, 6vw, 54px); font-weight: 400; color: var(--green); margin: 0; line-height: 1.05; }
+  .lead { font-size: clamp(17px, 2.2vw, 20px); font-weight: 500; margin: 14px 0 12px; }
+  .muted { color: var(--muted); }
+  p { margin: 0 0 12px; font-size: 15.5px; }
+  .metrics { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; }
+  .metric { background: var(--soft); border-radius: 12px; padding: 16px 18px; }
+  .metric b { display: block; font-size: 28px; font-weight: 600; color: var(--green); line-height: 1.1; }
+  .metric span { display: block; font-size: 13px; color: var(--muted); margin-top: 4px; line-height: 1.35; }
+  nav.map { margin-top: 18px; border-top: 1px solid var(--line); }
+  nav.map a { display: flex; justify-content: space-between; gap: 12px; padding: 9px 0; border-bottom: 1px solid var(--line); text-decoration: none; color: var(--ink); font-size: 14.5px; }
+  nav.map a span:last-child { color: var(--green); font-weight: 600; }
+  section { padding: 44px 0 8px; }
+  .card { background: var(--card); border: 1px solid var(--line); border-radius: 16px; padding: 28px; }
+  h2 { font-size: clamp(22px, 3vw, 28px); font-weight: 600; margin: 0 0 18px; line-height: 1.2; }
+  .ask { border-left: 3px solid var(--green); padding: 6px 0 6px 14px; margin: 0 0 16px; font-size: 14.5px; color: var(--muted); }
+  .ask b { color: var(--ink); }
+  .cols { display: grid; grid-template-columns: 1fr 1.25fr; gap: 28px; align-items: start; }
+  ul { margin: 0 0 14px; padding-left: 20px; }
+  li { font-size: 15.5px; margin-bottom: 8px; }
+  .tag { display: inline-block; font-size: 12.5px; font-weight: 600; color: var(--green-dark); background: var(--soft); border-radius: 99px; padding: 4px 11px; margin: 0 6px 6px 0; }
+  .g2 { display: grid; grid-template-columns: 1fr 1fr; gap: 14px; }
+  figure { margin: 0; }
+  figure img { display: block; width: 100%; height: auto; border-radius: 10px; border: 1px solid var(--line); background: #fff; }
+  figcaption { font-size: 12.5px; color: var(--muted); margin-top: 6px; line-height: 1.35; }
+  .case { background: var(--soft); border-radius: 14px; padding: 20px 22px; margin-top: 6px; }
+  .case h3 { font-size: 16px; margin: 0 0 10px; }
+  .facts { display: grid; grid-template-columns: repeat(4, 1fr); gap: 10px; margin: 12px 0 14px; }
+  .facts div { background: #fff; border-radius: 10px; padding: 10px 12px; }
+  .facts b { display: block; font-size: 19px; color: var(--green); line-height: 1.2; }
+  .facts span { font-size: 12.5px; color: var(--muted); line-height: 1.3; display: block; }
+  .case p { font-size: 14.5px; }
+  .hook { background: var(--green); color: #fff; border-radius: 14px; padding: 18px 22px; margin: 4px 0 18px; font-size: 15.5px; font-weight: 500; }
+  footer { padding: 44px 0 56px; }
+  footer .card { text-align: center; }
+  footer p { font-size: 15px; }
+  @media (max-width: 860px) {
+    .hero .wrap, .cols { grid-template-columns: 1fr; gap: 24px; }
+    .hero .wrap { padding-top: 32px; padding-bottom: 28px; }
+    .card { padding: 20px 16px; }
+    .facts { grid-template-columns: 1fr 1fr; }
+  }
+  @media (max-width: 420px) {
+    .metrics { gap: 8px; }
+    .metric { padding: 12px; }
+    .metric b { font-size: 22px; }
+  }
+</style>
+</head>
+<body>
+
+<header class="hero">
+  <div class="wrap">
+    <div>
+      <p class="eyebrow">Portfólio · Redes sociais, campanhas e captação · para a Mormaii Fitness</p>
+      <h1>André Lisboa</h1>
+      <p class="lead">Marketing que faz a pessoa vir, voltar e indicar.</p>
+      <p class="muted">Tenho mais de 5 anos entre marketing e vendas. Hoje sou Gestor de Projetos e Marketing Estratégico na Adconnect, onde planejo e executo redes sociais, campanhas, site e material de divulgação, e lidero a pessoa responsável pelas redes. Antes, fundei e geri um e-commerce de tênis com conteúdo para Instagram e TikTok.</p>
+      <p class="muted">E treino de verdade: musculação há uns 5 anos, boxe há cerca de 1 ano e futebol desde criança. Movimento faz parte da minha rotina, não é só um briefing.</p>
+      <nav class="map" aria-label="Seções">
+        <a href="#redes"><span>Redes sociais e conteúdo</span><span>1</span></a>
+        <a href="#campanhas"><span>Campanhas, tráfego pago e captação de leads</span><span>2</span></a>
+        <a href="#frequencia"><span>Frequência, retenção e programa de relacionamento</span><span>3</span></a>
+        <a href="#presenca"><span>Presença física, parceiros e material de divulgação</span><span>4</span></a>
+        <a href="#dados"><span>Métricas e ferramentas</span><span>5</span></a>
+      </nav>
+    </div>
+    <div class="metrics">
+      <div class="metric"><b>+35%</b><span>engajamento orgânico em redes (Mix Conceito Decor)</span></div>
+      <div class="metric"><b>+50%</b><span>leads qualificados na mesma empresa</span></div>
+      <div class="metric"><b>150 → 550</b><span>clientes ativos com réguas de relacionamento (+266% de alcance)</span></div>
+      <div class="metric"><b>−15%</b><span>churn com ações personalizadas para cada cliente</span></div>
+      <div class="metric"><b>+30%</b><span>crescimento do programa de fidelização</span></div>
+      <div class="metric"><b>20%</b><span>meta de fechamento batida em 1 mês, com testes A/B</span></div>
+    </div>
+  </div>
+</header>
+
+<main class="wrap">
+
+<section id="redes">
+  <div class="card">
+    <p class="eyebrow">1 · Redes sociais e conteúdo</p>
+    <h2>Calendário, copy e design feitos por mim</h2>
+    <div class="cols">
+      <div>
+        <p class="ask"><b>A vaga pede:</b> experiência em gestão de redes sociais e marketing digital, redação impecável e autonomia para cumprir cronogramas.</p>
+        <ul>
+          <li>Planejo o calendário editorial por pilar e cumpro os prazos com a equipe.</li>
+          <li>Escrevo a copy e desenho os posts no Photoshop e no Illustrator, e edito vídeo no CapCut.</li>
+          <li>Lidero a pessoa responsável pelas redes sociais, com estratégia, prazos e avaliação de desempenho.</li>
+          <li>Na Forcoming, meu e-commerce de tênis, criei o conteúdo da loja para Instagram e TikTok e fiz ações com influenciadores.</li>
+          <li>Na Mix Conceito Decor, aumentei o engajamento orgânico em 35% e os leads qualificados em 50%.</li>
+        </ul>
+        <span class="tag">Instagram</span><span class="tag">TikTok</span><span class="tag">LinkedIn</span><span class="tag">Photoshop</span><span class="tag">Illustrator</span><span class="tag">CapCut</span>
+      </div>
+      <div class="g2">
+        <figure><img src="img/cat6.jpg" alt="Post educativo" loading="lazy"><figcaption>Post educativo: ajudar o cliente a escolher.</figcaption></figure>
+        <figure><img src="img/dor.jpg" alt="Post sobre a dor do cliente" loading="lazy"><figcaption>Abrir pela dor que o cliente já conhece.</figcaption></figure>
+        <figure><img src="img/presenca.jpg" alt="Post de autoridade" loading="lazy"><figcaption>Autoridade: presença nacional.</figcaption></figure>
+        <figure><img src="img/patchcord.jpg" alt="Variação de post" loading="lazy"><figcaption>A mesma peça em nova cor, para testar no feed.</figcaption></figure>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="campanhas">
+  <div class="card">
+    <p class="eyebrow">2 · Campanhas e captação</p>
+    <h2>Campanha sazonal com meta, teste e resultado</h2>
+    <div class="cols">
+      <div>
+        <p class="ask"><b>A vaga pede:</b> estruturar campanhas sazonais, acompanhar o tráfego pago e a agência, e captar e contatar os leads gerados.</p>
+        <ul>
+          <li>Crio e gerencio campanhas de Google Ads, Meta Ads e LinkedIn Ads para lançamentos, promoções e marca.</li>
+          <li>Criei do zero as réguas de nutrição e automação no RD Station: a base ativa foi de 150 para 550 clientes (+266% de alcance).</li>
+          <li>Venho de vendas: prospectei e conquistei 40 clientes novos por ano na NZ Representações, então sei fazer o contato com o lead depois que ele chega.</li>
+        </ul>
+        <span class="tag">Meta Ads</span><span class="tag">Google Ads</span><span class="tag">RD Station</span><span class="tag">Leads</span>
+      </div>
+      <div class="case">
+        <h3>Caso: campanha de programação de compra</h3>
+        <p>Objetivo: levar os distribuidores da base e prospects a fechar o plano de compras dos meses seguintes.</p>
+        <div class="facts">
+          <div><b>20%</b><span>meta de fechamento</span></div>
+          <div><b>~R$ 1.000</b><span>orçamento total</span></div>
+          <div><b>1 mês</b><span>duração</span></div>
+          <div><b>~20%</b><span>ROI positivo</span></div>
+        </div>
+        <p><b>Canais:</b> régua de e-mail no RD Station e anúncios pagos nas redes sociais.</p>
+        <p style="margin:0"><b>Testes A/B:</b> assunto do e-mail, criativo e anúncios. Fiquei com as versões vencedoras e batemos a meta dentro do mês.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="frequencia">
+  <div class="card">
+    <p class="eyebrow">3 · Frequência e retenção</p>
+    <h2>Fazer o cliente voltar é o meu ponto mais forte</h2>
+    <div class="hook">A campanha de Alta Frequência é sobre retenção: fazer o aluno treinar mais e ficar. Foi exatamente isso que fiz com a carteira de clientes da Adconnect.</div>
+    <div class="cols">
+      <div>
+        <p class="ask"><b>A vaga pede:</b> planejar, organizar e executar a campanha interna de Alta Frequência e manter comunicação constante com a gestão comercial.</p>
+        <ul>
+          <li>Como gestor de contas, reduzi o churn em 15% e aumentei o ticket médio em 20% com ações personalizadas e campanhas baseadas em dados.</li>
+          <li>Fiz crescer 30% o programa de fidelização Smart, com comunicação que fala do benefício para quem participa.</li>
+          <li>Trabalho lado a lado com o comercial e acompanho o impacto das ações nos resultados.</li>
+        </ul>
+        <span class="tag">Retenção</span><span class="tag">Fidelização</span><span class="tag">Relacionamento</span>
+      </div>
+      <figure><img src="img/smart.jpg" alt="Peça do programa de fidelização" loading="lazy"><figcaption>Programa de fidelização: o título fala do benefício de quem participa.</figcaption></figure>
+    </div>
+  </div>
+</section>
+
+<section id="presenca">
+  <div class="card">
+    <p class="eyebrow">4 · Presença física e parceiros</p>
+    <h2>Gosto de estar no lugar onde o cliente está</h2>
+    <div class="cols">
+      <div>
+        <p class="ask"><b>A vaga pede:</b> presença nas unidades, eventos internos e externos, parcerias locais e o cuidado com o material de divulgação no ambiente físico.</p>
+        <ul>
+          <li>Na NZ Representações trabalhei em campo, com visitas a clientes e feiras.</li>
+          <li>Na Adconnect fiz visitas, promotoria e treinamentos para os parceiros, e cuido do relacionamento com eles.</li>
+          <li>Desenho material impresso pronto para produção, como embalagens e etiquetas de produto.</li>
+        </ul>
+        <span class="tag">Presencial</span><span class="tag">Parcerias</span><span class="tag">Material impresso</span>
+      </div>
+      <div class="g2">
+        <figure><img src="img/embalagem.jpg" alt="Embalagens de produto" loading="lazy"><figcaption>Embalagens prontas para impressão.</figcaption></figure>
+        <figure><img src="img/revenda.jpg" alt="Peça para parceiros" loading="lazy"><figcaption>Peça para parceiros: o que sustenta a revenda.</figcaption></figure>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="dados">
+  <div class="card">
+    <p class="eyebrow">5 · Métricas e ferramentas</p>
+    <h2>Medir para saber o que repetir</h2>
+    <div class="cols">
+      <div>
+        <ul>
+          <li>Acompanho KPIs de funil (CAC, LTV, conversão) em dashboards usados pela diretoria.</li>
+          <li>Construí com Claude Code a plataforma interna de marketing da empresa: aprovação de conteúdo, e-mail marketing e painel de resultados.</li>
+          <li>Construí o novo site da empresa, com caminhos de contato direto para o time comercial.</li>
+        </ul>
+        <span class="tag">Métricas</span><span class="tag">Dashboards</span><span class="tag">IA</span>
+      </div>
+      <div class="g2">
+        <figure><img src="img/central.jpg" alt="Central de marketing interna" loading="lazy"><figcaption>Central de marketing interna.</figcaption></figure>
+        <figure><img src="img/home.jpg" alt="Site novo" loading="lazy"><figcaption>Site novo, construído por mim.</figcaption></figure>
+      </div>
+    </div>
+  </div>
+</section>
+
+</main>
+
+<footer class="wrap">
+  <div class="card">
+    <p><b>André Lisboa</b> · Marketing · disponível para mudança para a Grande Florianópolis</p>
+    <p class="muted">Todo o trabalho deste portfólio foi feito por mim. Será um prazer mostrar e explicar cada peça em uma conversa.</p>
+    <p><a href="https://www.linkedin.com/in/andr%C3%A9-luiz-m-229716226/" rel="noopener">linkedin.com/in/andré-luiz-m-229716226</a></p>
+  </div>
+</footer>
+
+</body>
+</html>
